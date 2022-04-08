@@ -31,6 +31,13 @@ function Track() {
           let dd = ''  
           let ee = ''  
           let count =0
+          if (length == 0){
+            alert("You already finished the last game")
+            alert("This is the new game")
+            Clear()
+            history("/game")
+
+          }
           if (length ==1){
             aa = temp[0]
             
